@@ -4236,7 +4236,7 @@ lodash.isstring@^4.0.1:
   resolved "https://registry.npmjs.org/lodash.isstring/-/lodash.isstring-4.0.1.tgz"
   integrity sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=
 
-lodash.merge@^4.6.2:
+lodash.merge@4.6.2, lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
@@ -5941,6 +5941,13 @@ static-extend@^0.1.1:
   version "1.5.0"
   resolved "https://registry.npmjs.org/statuses/-/statuses-1.5.0.tgz"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
+
+stitches-native@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/stitches-native/-/stitches-native-0.1.1.tgz#78192dbf9a08f0962fc9ce930f37a68fa532c085"
+  integrity sha512-ngD37l+4y+2n7ZBk0KLGo1xVD/LWIc4lQnSSzgqRHdHT2QGYh5gxTZWuxKSjj9qMwd1yCaiUoVhrgCfN+XEjqw==
+  dependencies:
+    lodash.merge "4.6.2"
 
 stream-buffers@2.2.x:
   version "2.2.0"
